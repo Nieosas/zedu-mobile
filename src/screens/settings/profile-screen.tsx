@@ -453,7 +453,7 @@ const ProfileScreen = ({ navigation }: any) => {
               name="log-out-outline"
               size={18}
               color={colors.error}
-              style={{ marginRight: 6 }}
+              style={styles.leaveOrgIcon}
             />
             <AppText variant="bold" style={styles.leaveOrgButtonText}>
               Leave Organisation

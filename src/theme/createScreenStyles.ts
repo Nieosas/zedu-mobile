@@ -614,6 +614,9 @@ export function createProfileScreenStyles(colors: ThemeColors) {
       color: colors.error,
       fontSize: 16,
     },
+    leaveOrgIcon: {
+      marginRight: 6,
+    },
     leaveSheetContent: {
       flex: 1,
       paddingHorizontal: 24,
