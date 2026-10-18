@@ -306,11 +306,7 @@ const ProfileScreen = ({ navigation }: any) => {
           style={styles.backBtn}
           hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
         >
-          <Ionicons
-            name="chevron-back"
-            size={24}
-            color={colors.textPrimary}
-          />
+          <Ionicons name="chevron-back" size={24} color={colors.textPrimary} />
           <AppText variant="bold" style={styles.headerTitle}>
             Profile
           </AppText>
